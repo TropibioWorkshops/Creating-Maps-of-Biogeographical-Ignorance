@@ -37,7 +37,7 @@ write_csv(df_lite,"/Users/javiermartinez/Downloads/test_lite.csv")
 ###########################
 
 
-df_final = read_csv("/Users/javiermartinez/Downloads/Test_Filtered_lite.csv")
+df_final = read_csv("/Users/javiermartinez/Downloads/test_lite_clean.csv")
 
 # turn it into an sf object, for spatial plotting
 my_sf <- df_final %>% 
